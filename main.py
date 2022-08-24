@@ -1,11 +1,38 @@
-import random
+a=input("enter a")
+b=input("enter b")
+c=input("enter c")
+if a > b :
+        print("Good")
+elif a<b :
+        print("try again")
+elif a==b :
+ if b > c:
+        print("try again")
+
+elif b < c:
+        print("Good")
 
 
-def f(min_len, max_len):
-    l = []
-    for _ in range(random.randint(min_len, max_len)):
-        l.append(random.randint(0, 9))
-    print(l)
 
 
-f(5, 10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
